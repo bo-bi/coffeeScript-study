@@ -23,6 +23,23 @@
                        """`
 * 9.不用写分号，分割代码
 * 10.Js注释 ###注释内容### -> /*注释内容*/    #内容 -> //内容
+* 11.条件判断
+    - ① 一种判断没有分支，并赋值(if真，unless非)
+      + string = '我是好人' if isTrue  --> if(isTure)
+      + string = '我是好人' unless isTrue --> if(!isTure)
+    - ② 判断条件和有分支
+      + `
+        if data? and data != '' and data.length > 1
+           a()
+           b()
+        else
+           c()
+        或者
+        result = data if data? and data != ''
+        `
+    - ③ 三元表达式 if 变量 then '我是对的' else '我是错的'
+
+
 
 
 
